@@ -1,0 +1,50 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: User asks about wedding date
+  steps:
+  - intent: ask_date
+  - action: utter_ask_date
+
+- story: User asks about wedding timr
+  steps:
+  - intent: ask_time
+  - action: utter_ask_time
+
+- story: User asks about wedding location
+  steps:
+  - intent: ask_location
+  - action: utter_ask_location
+
+- story: User asks about the couple's story
+  steps:
+  - intent: ask_story
+  - action: utter_ask_story

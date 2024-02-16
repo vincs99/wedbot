@@ -1,0 +1,52 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_date
+  - ask_time
+  - ask_location
+  - ask_story
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_ask_date:
+    - text: "Our wedding is on 28 September, 2024. Can't wait to see you there!"
+
+  utter_ask_time:
+    - text: "The ceremony will commence at 11am sharp, and will be followed by the reception & party from 5pm."
+
+  utter_ask_location:
+    - text: "The ceremony will be held at the main Catholic Church of Tata (called Szent Kereszt Plébániatemplom / Church of the Holy Cross), and the reception/party will be at the Chateau Billegi at Billegpuszta. There will be scheduled transfers from Tata to the reception/party venue."
+
+  utter_ask_story:
+    - text: "Back in high school, we sort-of knew each other because both of us were interested in math - the first time we (probably) saw each other was actually at a maths competition. But we first properly met at the birthday party of a mutual friend, Donát in the summer of 2020."
+
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

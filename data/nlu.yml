@@ -1,0 +1,208 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_date
+  examples: |
+    - When is the wedding happening?
+    - What's the date of the ceremony?
+    - Can you remind me of the wedding date?
+    - What day are you getting married?
+    - On what date is the wedding scheduled?
+    - Could you tell me the date of the wedding?
+    - I forgot the wedding date, can you tell me?
+    - When are you guys tying the knot?
+    - What is the exact date of the wedding?
+    - Do you have the date for the wedding?
+    - When should we mark our calendars for the wedding?
+    - What day is the wedding taking place?
+    - Can you share the wedding date with me?
+    - When's the big day scheduled for?
+    - What date should I save for your wedding?
+    - Could you inform me about the wedding date?
+    - What's the date I need to keep free for the wedding?
+    - On which date will the wedding be held?
+    - Could you please remind me the date of your wedding?
+    - What date is the wedding ceremony on?
+    - When si the wedding happening?
+    - What's teh date of the ceremony?
+    - Can you remidn me of the wedding date?
+    - Wha day are you getting married?
+    - On waht date is the wedding scheduled?
+    
+- intent: ask_location
+  examples: |
+    - Where's the wedding being hled?
+    - Can you tlle me the location of the wedding?
+    - What is the vneue for the wedding?
+    - Where sholud we come for the wedding?
+    - Could you share the wedding venue detials?
+    - Where's the wedding being held?
+    - Can you tell me the location of the wedding?
+    - What is the venue for the wedding?
+    - Where should we come for the wedding?
+    - Could you share the wedding venue details?
+    - Where is the wedding ceremony taking place?
+    - I need the address for the wedding, please.
+    - What's the location for your wedding?
+    - Can you provide the venue details for the wedding?
+    - Where are you guys getting married?
+    - What is the exact location of the wedding?
+    - Do you have the location for the wedding?
+    - Where will the wedding festivities be held?
+    - Can I get the wedding venue's address?
+    - What's the venue for the upcoming wedding?
+    - Where do we need to show up for the wedding?
+    - Could you inform me about the wedding's location?
+    - What location did you choose for the wedding?
+    - Where is the wedding reception going to be held?
+    - What's the address for the wedding ceremony?
+    - Where's the wedding being hled?
+    - Can you tlle me the location of the wedding?
+    - What is the vneue for the wedding?
+    - Where sholud we come for the wedding?
+    - Could you share the wedding venue detials?
+  
+- intent: ask_time
+  examples: |
+    - What time does the wedding start?
+    - Can you tell me the ceremony's start time?
+    - What's the time for the wedding?
+    - When should we arrive at the wedding?
+    - Could you tell me the start time of the wedding?
+    - What time will the wedding ceremony begin?
+    - I need to know the wedding's start time, please.
+    - At what time should we be there for the wedding?
+    - What is the official start time for the ceremony?
+    - Can you inform me about the wedding timing?
+    - When does the wedding kick off?
+    - What's the schedule for the wedding day?
+    - At what time does the event start?
+    - Could you remind me of the wedding's start time?
+    - What time is the wedding planned to start?
+    - Is there a set time for the wedding ceremony to begin?
+    - When do the wedding festivities begin?
+    - Can you provide the time for the wedding?
+    - What time should guests arrive for the wedding?
+    - When is the wedding scheduled to commence?
+    - What time does the wedding strat?
+    - Can you tell me the ceremnoy's start time?
+    - What's the tiem for the wedding?
+    - When shoudl we arrive at the wedding?
+    - Could you tell me the strart time of the wedding?
+
+- intent: ask_story
+  examples: |
+    - How did you two meet each other?
+    - Can you tell me how your love story began?
+    - What's the story behind how you met?
+    - I'd love to hear how you both got together.
+    - What's your love story?
+    - How did your paths cross?
+    - Tell me the tale of how you two met.
+    - How did the two of you start dating?
+    - What's the story of your relationship?
+    - Can you share how you met and fell in love?
+    - I'm curious, how did you guys meet?
+    - What led to you two getting together?
+    - How did your love story unfold?
+    - Would you mind sharing how you met?
+    - What's the backstory of your relationship?
+    - How did the journey of your relationship begin?
+    - Tell me more about how you two met.
+    - I'm interested in hearing how you met.
+    - What's the story
+    - How did you two met each other?
+    - Can you tell me how your love sotry began?
+    - What's the story behind how you met?
+    - I'd love to hear how you btoh got together.
+    - What's yuor love story?
+

@@ -1,0 +1,34 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Respond to wedding date query
+  steps:
+  - intent: ask_date
+  - action: utter_ask_date
+
+- rule: Respond to wedding time query
+  steps:
+  - intent: ask_time
+  - action: utter_ask_time
+
+- rule: Respond to wedding location query
+  steps:
+  - intent: ask_location
+  - action: utter_ask_location
+
+- rule: Respond to story about the couple
+  steps:
+  - intent: ask_story
+  - action: utter_ask_story
+
